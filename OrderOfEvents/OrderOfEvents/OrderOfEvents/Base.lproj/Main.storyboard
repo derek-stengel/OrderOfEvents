@@ -52,8 +52,8 @@
                                     <segue destination="Wxu-6J-NaB" kind="show" id="Kr4-Sf-mag"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing has happened yet. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZr-ii-eFp">
-                                <rect key="frame" x="91" y="117" width="210" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing has happened yet. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZr-ii-eFp">
+                                <rect key="frame" x="87" y="81" width="218" height="548"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -65,7 +65,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="a1B-Pw-NyY"/>
                     <connections>
-                        <outlet property="middleViewOutlet" destination="FZr-ii-eFp" id="S66-27-l9t"/>
+                        <outlet property="middleViewLabel" destination="FZr-ii-eFp" id="Gce-X7-LOv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2i-FX-26h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
